@@ -48,5 +48,11 @@ const create = createRoot( root );
 // import Component3 from "./example/day02/Component3";
 // create.render( <Component3> </Component3>)
 
-import ProductManager from "./example/totalpractice1/ProductManager";
-create.render( <ProductManager> </ProductManager>)
+// import ProductManager from "./example/totalpractice1/ProductManager";
+// create.render( <ProductManager> </ProductManager>)
+
+// import Component1 from "./example/day03/Component1";
+// create.render( <Component1> </Component1> )
+
+import Component2 from "./example/day03/Component2";
+create.render( <Component2> </Component2>)
