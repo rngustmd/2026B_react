@@ -1,3 +1,8 @@
+
+fetch --> axios
+1. 터미널에서 리액트 종료(ctrl + c) 된 상태로 , npm i axios
+2. axios 설치 후 ㅡ npm run dev
+
 리액트에서 외부 라이브러리 설치 방법
     1. 통합 터미널 열기( 주의할점 : 프로젝트폴더 최상위폴더 )
     C:\Users\HS-KOO\Desktop\kdigital\2026B_react>

@@ -72,6 +72,28 @@ const create = createRoot( root );
 // import KooTable from "./example/Practice3/KooTable";
 // create.render( <KooTable> </KooTable>)
 
+// import { BrowserRouter } from "react-router-dom";
+// import KooTable from "./example/Practice3/KooTable";
+// create.render( <BrowserRouter> <KooTable /> </BrowserRouter>)
+
+// [day05]
+// import App from "./example/day05/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render( <BrowserRouter> <App /> </BrowserRouter> )
+
+// [day06]
+// import App from "./example/day06/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render( <BrowserRouter> <App /> </BrowserRouter>)
+
+// import App from "./example/Chapter19/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render( <BrowserRouter> <App /> </BrowserRouter>)
+
+// import App from "./example/day10/App";
+// import { BrowserRouter } from "react-router-dom";
+// create.render(<BrowserRouter> <App /> </BrowserRouter>)
+
+import App from "./example/day13/App";
 import { BrowserRouter } from "react-router-dom";
-import KooTable from "./example/Practice3/KooTable";
-create.render( <BrowserRouter> <KooTable /> </BrowserRouter>)
+create.render(<BrowserRouter><App/></BrowserRouter>)

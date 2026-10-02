@@ -1,0 +1,19 @@
+SPA( 싱글페이지 )
+훅 : useState , useEffect , 
+컴포넌트 : 함수이면서 return 1번 , return에 html 존재
+즉] html 최신화 하기 위해서는 함수를 재실행 ( 재 렌더링 )
+재렌더링 기준 : state 변경 , props 변경
+useEffect : 컴포넌트 생명주기 , 
+	- 함수실행될때 == 마운트		useEffect( ( ) => { } . [ ] ); 최초 1번 실행
+	- 함수재실행될때 == 업데이트		useEffect( ( ) => { } ); 	 재렌더링 될 때 마다
+	- 함수가 사라질 때 == 언마운트	useEffect( ( ) => { } , [state 변수] ); 특정 변수가 변경 될 때 마다
+** 목적 : 비동기통신 axios로 백엔드와 통신 결과 시간 격차
+
+axios란? 주로 API 비동기통신
+	- 주로 외부API 와 백엔드 API(controller) 통신 도구
+	- content-type 기본값이 application/json
+1. 사용법
+	const 함수명 = async( ) => {
+		const response = await axios.HTTP메소드명( "통신할주소? 쿼리스트링" , {body});
+		const data = response.data
+	}
